@@ -1,0 +1,29 @@
+#wrapper {
+    position: relative;
+}
+
+#header {
+    /* padding-top: 2em !important; */
+    border-bottom: solid 5px #0400e6 !important;
+}
+
+#menu {
+    position: absolute !important;
+    left: 5% !important;
+    top: 0 !important;
+    width: 10% !important;
+    background-color: #00a1f2 !important;
+    height: 100% !important;
+    margin-left: 0px !important;
+    text-align: center !important;
+    border-right: 1px solid #E5E5E9 !important;
+    width: var(--nav-width) !important;
+}
+
+#main {
+    position: absolute !important;
+    right: auto !important;
+    width: 90% !important;
+    border-left: 1px solid #0400e6 !important;
+    margin-left: 40px !important;
+}
